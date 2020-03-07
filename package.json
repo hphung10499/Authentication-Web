@@ -1,0 +1,21 @@
+{
+  "name": "AuthenticationApp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/Shadow-250/Authentication-Web.git",
+  "author": "HoangPhung",
+  "license": "none",
+  "scripts": {
+    "start": "node app",
+    "watch": "nodemon app && mongod"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.17.1",
+    "connect-mongo": "^3.2.0",
+    "express": "^4.17.0",
+    "express-session": "1.17.0",
+    "mongoose": "^5.9.3",
+    "nodemon": "2.0.2"
+  }
+}
